@@ -10,33 +10,33 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects = [
     {
-      title: 'Media Management Platform',
+      title: 'Stellar POS (Point of Sale)',
       description: [
-        'This project aimed to tackle the complexities of media planning across diverse channels, where challenges such as errors and compliance issues frequently arise. These hurdles often result in time-consuming tasks and potential regulatory risks, diverting attention away from strategic thinking and creative endeavours.',
-        'Our objective was to streamline the media planning process, minimizing errors and ensuring compliance, allowing teams to focus on strategic decision-making and creativity.'
+        'Stellar POS (Point of Sale) software** is a modern system that enables businesses to manage sales, inventory, and customer interactions efficiently. It is commonly used in retail stores, restaurants, and e-commerce businesses to streamline transactions, track inventory, and generate reports.',
+        'To revolutionize retail operations by developing an intelligent, all-in-one POS platform that eliminates manual inefficiencies, enforces compliance, and delivers real-time business insights—empowering merchants to focus on growth, customer experience, and strategic decision-making. was to streamline the media planning process, minimizing errors and ensuring compliance, allowing teams to focus on strategic decision-making and creativity.',
       ],
-      techStack: ['Angular', '.NET Framework', 'SQL Server', 'Microsoft IIS', 'Firebase', 'CI/CD'],
+      techStack: ['React', 'Node/express', 'MySQL', 'AWS', 'Redis', 'CI/CD'],
       image: '/assets/media-management-platform.webp',
       aosImage: 'fade-right'
     },
     {
-      title: 'Smile Analysis Web Application',
+      title: 'Requirement-to-Code Integrity and QA Automation Tool',
       description: [
-        'Developed and deployed a smile detection application for elderly residents in Japanese old age homes using computer vision and machine learning algorithms.',
-        'Designed and implemented a user-friendly interface using Angular with Flask backend to analyze smiles in real-time.'
+        'Developed and deployed an AI-powered QA automation tool that ensures requirement-to-code integrity for compliance-sensitive industries using NLP and machine learning algorithms.',
+        'Designed and implemented a seamless integration with JIRA/TestRail using Node.js and Express backend to auto-generate test cases and track coverage gaps in real-time.'
       ],
-      techStack: ['Angular', 'Python', 'SQL Server', 'AWS'],
-      image: '/assets/smile-project.webp',
+      techStack: ['Node.js', 'Express.js', 'Python', 'NLP', 'JIRA', 'TestRail', 'CI/CD'],
+      image: '/assets/QA.jpg',
       aosImage: 'fade-left'
     },
     {
-      title: 'AI Receptionist',
+      title: 'Joint Univresity Application',
       description: [
-        'The project involves the implementation of a receptionist system for tourists and hotel guests, utilizing a multilingual AI avatar.',
-        'The system provides assistance and information to guests in multiple languages, enhancing their overall experience while streamlining hotel operations.'
+        'As a highly skilled software developer, I have had the privilege of working on a project that has the potential to revolutionize the college admission process This project, called the Joint University Application , is a single, common application platform for both public and private colleges and universities in Ethiopia.',
+        'The platform is designed to allow college students to apply to multiple institutions based on their preferred fields of study, location, and other important metrics.'
       ],
-      techStack: ['Node.js', 'Python', 'OpenAI API', 'Nginx'],
-      image: '/assets/ai-receptionist.webp',
+      techStack: ['Node.js', 'React', 'Redux', 'MongoDB', 'CI/CD'],
+      image: '/assets/ada.png',
       aosImage: 'fade-right'
     },
     {
@@ -46,7 +46,7 @@ export class ProjectsComponent {
         'Designed and integrated an Angular-based frontend with a Flask backend for seamless document processing.',
         'Implemented role-based access control, ensuring only authorized users can manage documents.'
       ],
-      techStack: ['Angular', 'Tailwind CSS', 'Flask (Python)', 'MongoDB', 'AWS'],
+      techStack: ['Angular', 'Tailwind CSS', 'Django (Python)', 'MongoDB', 'AWS'],
       image: '/assets/docu-query-ai.webp',
       aosImage: 'fade-left'
     }
